@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+  	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link type="text/css" rel="stylesheet" href="libs/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="libs/css/font-awesome.min.css"/>
+
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    
+</head>
+<body>
+
+  <div class="ui-layout">
+
+     <div class="container-row white">
+
+        <div class="row">
+
+            <h3 style="padding-left: 15px;">Search Flickr for Photos</h3>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-3">
+                
+                <div class="search-options">
+
+                    <input id="search-bar"/>
+
+                    <button id="submit-search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <span style="display:none;">Search</span>
+                    </button>
+
+                </div>
+                
+                <div class="page-options">
+
+                    <button id="page-back">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                        <span style="display:none;">Page Back</span>
+                    </button>
+
+                    <span id="page-count">0 of 0</span>
+
+                    <button id="page-forward">
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        <span style="display:none;">Page Forward</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-9 results-display">
+
+                <table id="search-results">
+                    <thead>
+                        <tr>
+                            <th style="width: 430px;">Title</th>
+                            <th style="width: 150px;">Picture</th>
+                            <!-- <th>ID</th>
+                            <th>Server</th> -->
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+  </div>
+  
+  <script type="text/javascript" src="libs/js/jquery-1.11.3.min.js" ></script>
+  <script type="text/javascript" src="libs/js/bootstrap.min.js" ></script>
+
+  <script type="text/javascript" src="flickr.js"></script>
+    
+</body>
+</html>

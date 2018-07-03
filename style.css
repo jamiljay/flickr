@@ -1,0 +1,62 @@
+.ui-layout {
+	margin: 0 auto;
+    width: 80%;
+}
+
+.search-options {
+	width: 190px; 
+	margin-bottom: 10px;
+}
+
+.search-options button {
+	float: right;
+}
+
+.page-options {
+	width: 190px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.page-options #page-back {
+	float: left;
+}
+
+.page-options #page-forward {
+	float: right;
+}
+
+
+.results-display {
+	height: 600px;
+	width: auto;
+    overflow: auto;
+}
+
+#search-results thead tr {
+	background-color: #A7D1E4;
+	border: 1px solid black;
+}
+
+#search-results th {
+	padding: 2px 10px;
+	text-align: center;
+}
+
+#search-results td {
+	padding: 2px 10px;
+}
+
+#search-results tbody tr {
+	cursor: pointer;
+	border: 1px solid whitesmoke;
+    background-color: #ECECEC;
+}
+
+#search-results tbody tr:hover,
+#search-results tbody tr.highlight-row {
+	background-color: #FFFB78;
+	border: 1px solid #FFE950;
+	color: black;
+	font-weight: bold;
+}
